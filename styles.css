@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -83,10 +83,16 @@ button:hover {
   padding: 20px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   justify-content: center;
-  text-align: center;
+  text-align: left;
   height: 300px;
 }
-
+.bottom-left {
+  margin-left: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 280px;
+  padding: 8px 15px;
+}
 /* Bottom section of left div */
 .bottom-section {
   flex: 1;
@@ -131,26 +137,25 @@ button:hover {
   font-size: 15px;
   cursor: pointer;
 }
-
+.features {
+  padding: 10px;
+  text-align: center;
+}
 /* Link below the button */
 .link {
   margin-top: 10px;
   text-align: center;
 }
 
-#courses {
-  display: flex;
-  justify-content: space-around;
+#courses-container {
   padding: 50px 0;
-}
-
-#courses div {
-  width: 30%;
+  background-color: aquamarine;
+  width: 100%;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
-#courses div:hover {
+#courses-container div:hover {
   transform: scale(1.1);
 }
 
