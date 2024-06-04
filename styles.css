@@ -65,6 +65,71 @@ button:hover {
   justify-content: center;
 }
 
+/* Main container */
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left section (60%) */
+.left-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top section of left div */
+.top-section {
+  padding: 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+/* Bottom section of left div */
+.bottom-section {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Right section (40%) */
+.right-section {
+  margin: 40px;
+  width: 500px;
+  /* height: 700px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Textboxes and button in the right section */
+.textbox {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 80%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Link below the button */
+.link {
+  margin-top: 10px;
+  text-align: center;
+}
+
 #courses {
   display: flex;
   justify-content: space-around;
