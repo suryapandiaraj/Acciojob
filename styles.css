@@ -155,10 +155,13 @@ button:hover {
   transition: transform 0.3s ease;
 }
 
-#courses-container div:hover {
-  transform: scale(1.1);
+.courses {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
 /* Hiring Partners & Mentors */
 #partners-mentors {
   display: grid;
@@ -201,4 +204,31 @@ button:hover {
   #success-stories div {
     width: 100%;
   }
+}
+
+.box {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid transparent; /* Initially no visible border */
+  transition: border 0.3s;
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: blue;
+}
+
+.box:hover {
+  border: 1px solid blue; /* Blue border on hover */
+}
+
+.courses-button {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #3964d8; /* Blue border */
+  border-radius: 5px;
+  padding: 8px 15px;
+  /* font-size: 18px; */
+  cursor: pointer;
 }
